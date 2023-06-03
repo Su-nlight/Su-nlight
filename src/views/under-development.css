@@ -1,0 +1,18 @@
+.under-development-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #29252f;
+}
+.under-development-text {
+  color: var(--dl-color-gray-white);
+  margin-top: 300px;
+  padding-top: var(--dl-space-space-sixunits);
+}
+.under-development-navlink {
+  margin-top: var(--dl-space-space-sixunits);
+  text-decoration: none;
+}

@@ -721,16 +721,17 @@ const Home = (props) => {
                 data-role="accordion-content"
                 className="home-description05"
               >
-                Since I am not good at drawing and any art related stuff, that
+                <span>Since I am not good at drawing and any art related stuff, that
                 is why I did downloaded the Free illustration from OpenDoodles.
                 Further, I edited the same downloads to meet my banner
                 requirement. OpenDoodles offers free of cost and no login
                 required illustration set and compositions, you can also alter
                 their ink (outlining color), Body filled color and the
                 background color by simply going to &apos;generator&apos; page
-                in the main site. 
-              </span>
-              <a
+                in the main site.
+                <br></br>
+                <br></br>
+                <a
                 href="https://www.opendoodles.com/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -746,7 +747,10 @@ const Home = (props) => {
                   className="home-image17"
                 />
               </a>
+              </span>
+              </span>  
             </div>
+
             <div className="home-icon-container">
               <svg
                 viewBox="0 0 1024 1024"
@@ -773,18 +777,17 @@ const Home = (props) => {
                 Can you tell us the site for using free icons based on our
                 interests ?
               </span>
-              <span data-role="accordion" className="home-description06">
+              <span data-role="accordion-content" className="home-description06">
                 <span>
                   I personally used Icons8 for few of my icons, I did so because
                   of the help of Github Student and also they provide free
                   content also. Also you can use &quot;Material Designs&quot;
                   for your requirements it is totally free to use and easy to
-                  integrate to your applications. 
-                </span>
-                <span>Links to both are provided below.</span>
+                  integrate to your applications.
+                  <br></br>Links to both are provided below.
                 <br></br>
-              </span>
-              <a
+                <br></br>
+                <a
                 href="https://icons8.com/"
                 data-role="accordian"
                 target="_blank"
@@ -798,6 +801,7 @@ const Home = (props) => {
                   className="home-image18"
                 />
               </a>
+              <br></br>
               <a
                 href="https://m2.material.io/components"
                 data-role="accordion"
@@ -815,6 +819,9 @@ const Home = (props) => {
                   className="home-image19"
                 />
               </a>
+              </span>
+              </span>
+              
             </div>
             <div className="home-icon-container1">
               <svg

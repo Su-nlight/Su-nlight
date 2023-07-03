@@ -4,14 +4,18 @@ import { Link } from 'react-router-dom'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+import Card1 from '../components/card-1'
+import Card2 from '../components/card-2'
+import Card3 from '../components/card-3'
+import Card4 from '../components/card-4'
 import './home.css'
 
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Async_Sunlight</title>
-        <meta property="og:title" content="Async_Sunlight" />
+        <title>Async Sunlight</title>
+        <meta property="og:title" content="Async Sunlight" />
       </Helmet>
       <header data-thq="thq-navbar" className="home-navbar">
         <span className="home-logo">
@@ -558,101 +562,33 @@ const Home = (props) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="home-card">
-              <div className="home-image12">
-                <img
-                  alt="image"
-                  src="https://img.icons8.com/plasticine/250/electricity-hazard.png"
-                  className="home-image13"
-                />
-              </div>
-              <div className="home-content04">
-                <span className="home-caption08">
-                  Demonstration &amp; building Impulse Generator
-                </span>
-                <h3 className="home-title">High School Physics Project</h3>
-              </div>
-            </div>
+            <Card1 className="home-component"></Card1>
           </a>
           <a
             href="https://www.canva.com/design/DAFksYgCH0I/h2e6Gaos1w0YAzUD8qPUxQ/view?utm_content=DAFksYgCH0I&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=publishsharelink"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="home-card01">
-              <div className="home-image14">
-                <img
-                  alt="image"
-                  src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/250/external-api-mobile-app-development-flaticons-lineal-color-flat-icons.png"
-                  className="home-image15"
-                />
-              </div>
-              <div className="home-content05">
-                <span className="home-caption09">
-                  Student Data Archival &amp; Retrieval System
-                </span>
-                <h3 className="home-title1">
-                  <span>High School Computer Science Project</span>
-                  <br></br>
-                </h3>
-              </div>
-            </div>
+            <Card2 className="home-component1"></Card2>
           </a>
-          <div className="home-card02">
-            <a
-              href="https://github.com/Su-nlight/energyzoids"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link15"
-            >
-              <div className="home-image16">
-                <img
-                  alt="image"
-                  src="https://img.icons8.com/plasticine/250/web-design.png"
-                  className="home-image17"
-                />
-              </div>
-            </a>
-            <div className="home-content06">
-              <span className="home-caption10">
-                Designing &amp; Making Static Social Site 
-              </span>
-              <h3 className="home-title2">
-                High School Team Extra Curriculum Project
-              </h3>
-            </div>
-          </div>
+          <Link to="/under-development">
+            <Card3 className="home-component2"></Card3>
+          </Link>
           <a
             href="https://www.canva.com/design/DAFksQQH9uo/6ZHjUcD9tskx0u3ajmIpYw/view"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <div className="home-card03">
-              <div className="home-image18">
-                <img
-                  alt="image"
-                  src="https://img.icons8.com/matisse/250/test-tube.png"
-                  className="home-image19"
-                />
-              </div>
-              <div className="home-content07">
-                <span className="home-caption11">
-                  <span>Making and usage of Activated Charcoal</span>
-                  <br></br>
-                </span>
-                <h3 className="home-title3">
-                  <span>High School Chemistry Project</span>
-                  <br></br>
-                </h3>
-              </div>
-            </div>
+            <Card4 className="home-component3"></Card4>
           </a>
         </div>
-        <button className="home-view5 button-link button">View all</button>
+        <Link to="/under-development" className="home-view5 button-link button">
+          View all
+        </Link>
       </section>
       <section className="home-blog-card">
         <div className="home-row">
-          <div className="home-card04">
+          <div className="home-card">
             <div className="home-avatar">
               <img
                 alt="students"
@@ -661,7 +597,7 @@ const Home = (props) => {
               />
             </div>
             <div className="home-main1">
-              <div className="home-content08">
+              <div className="home-content04">
                 <h2 className="home-header20">Story of my weird 12th class</h2>
                 <p className="home-description02">
                   <span>
@@ -678,18 +614,18 @@ const Home = (props) => {
                 </p>
               </div>
               <Link to="/under-development" className="home-learn1 button">
-                <span className="home-text61">
+                <span className="home-text55">
                   Come read my precious part of my whole damn life
                 </span>
                 <img
                   alt="image"
                   src="/Icons/arrow.svg"
-                  className="home-image20"
+                  className="home-image12"
                 />
               </Link>
             </div>
           </div>
-          <div className="home-card05">
+          <div className="home-card1">
             <div className="home-avatar2">
               <img
                 alt="unreal-engine"
@@ -698,7 +634,7 @@ const Home = (props) => {
               />
             </div>
             <div className="home-main2">
-              <div className="home-content09">
+              <div className="home-content05">
                 <h2 className="home-header21">Metaverse here we come!!!</h2>
                 <p className="home-description03">
                   Now build your virtual human for absolutely free, first scan
@@ -706,17 +642,17 @@ const Home = (props) => {
                 </p>
               </div>
               <Link to="/under-development" className="home-learn2 button">
-                <span className="home-text62">Learn more</span>
+                <span className="home-text56">Learn more</span>
                 <img
                   alt="image"
                   src="/Icons/arrow-2.svg"
-                  className="home-image21"
+                  className="home-image13"
                 />
               </Link>
             </div>
           </div>
         </div>
-        <div className="home-card06">
+        <div className="home-card2">
           <div className="home-avatar4">
             <img
               alt="image"
@@ -726,7 +662,7 @@ const Home = (props) => {
           </div>
           <div className="home-row1">
             <div className="home-main3">
-              <div className="home-content10">
+              <div className="home-content06">
                 <h2 className="home-header22">
                   Meet &apos;Da friend polygon&apos;
                 </h2>
@@ -739,35 +675,35 @@ const Home = (props) => {
                 </p>
               </div>
               <Link to="/under-development" className="home-learn3 button">
-                <span className="home-text63">My buddies</span>
+                <span className="home-text57">My buddies</span>
                 <img
                   alt="image"
                   src="/Icons/arrow-2.svg"
-                  className="home-image22"
+                  className="home-image14"
                 />
               </Link>
             </div>
             <img
               alt="image"
               src="/Avatars/undraw_having_fun_re_vj4h.svg"
-              className="home-image23"
+              className="home-image15"
             />
           </div>
         </div>
       </section>
       <section className="home-join-us">
-        <div className="home-content11">
+        <div className="home-content07">
           <div className="home-main4">
             <div className="home-heading09">
               <h2 className="home-header23">Create your character now</h2>
-              <p className="home-caption12">
+              <p className="home-caption08">
                 A character custom collection is joining the NFT space on
                 Opensea.
               </p>
             </div>
             <button className="home-view6 button">View on Opensea</button>
           </div>
-          <img alt="image" src="/group%202273.svg" className="home-image24" />
+          <img alt="image" src="/group%202273.svg" className="home-image16" />
         </div>
       </section>
       <section className="home-faq">
@@ -777,7 +713,7 @@ const Home = (props) => {
             data-role="accordion-container"
             className="home-element accordion"
           >
-            <div className="home-content12">
+            <div className="home-content08">
               <span className="home-header25">
                 Where is the banner image from ?
               </span>
@@ -785,7 +721,7 @@ const Home = (props) => {
                 data-role="accordion-content"
                 className="home-description05"
               >
-                <span>Since I am not good at drawing and any art related stuff, that
+                Since I am not good at drawing and any art related stuff, that
                 is why I did downloaded the Free illustration from OpenDoodles.
                 Further, I edited the same downloads to meet my banner
                 requirement. OpenDoodles offers free of cost and no login
@@ -793,26 +729,23 @@ const Home = (props) => {
                 their ink (outlining color), Body filled color and the
                 background color by simply going to &apos;generator&apos; page
                 in the main site. 
-                <br></br>
-                <a
+              </span>
+              <a
                 href="https://www.opendoodles.com/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-learn4 button"
               >
-                <span className="home-text64">
+                <span className="home-text58">
                   <span>Link for OpenDoodles</span>
                   <br></br>
                 </span>
                 <img
                   alt="image"
                   src="/Icons/arrow.svg"
-                  className="home-image25"
+                  className="home-image17"
                 />
               </a>
-              </span>
-              </span>
-              
             </div>
             <div className="home-icon-container">
               <svg
@@ -835,53 +768,53 @@ const Home = (props) => {
             data-role="accordion-container"
             className="home-element1 accordion"
           >
-            <div className="home-content13">
+            <div className="home-content09">
               <span className="home-header26">
                 Can you tell us the site for using free icons based on our
                 interests ?
               </span>
-              <span data-role="accordion-content" className="home-description06">
+              <span data-role="accordion" className="home-description06">
                 <span>
                   I personally used Icons8 for few of my icons, I did so because
                   of the help of Github Student and also they provide free
                   content also. Also you can use &quot;Material Designs&quot;
                   for your requirements it is totally free to use and easy to
-                  integrate to your applications. Links to both are provided below.
+                  integrate to your applications. 
+                </span>
+                <span>Links to both are provided below.</span>
                 <br></br>
-                <a
+              </span>
+              <a
                 href="https://icons8.com/"
+                data-role="accordian"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-learn5 button"
               >
-                <span className="home-text70">icons from Icons8</span>
+                <span className="home-text64">icons from Icons8</span>
                 <img
                   alt="image"
                   src="/Icons/arrow.svg"
-                  className="home-image26"
+                  className="home-image18"
                 />
               </a>
-              <br></br>
               <a
                 href="https://m2.material.io/components"
+                data-role="accordion"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-learn6 button"
               >
-                <span className="home-text71">
+                <span className="home-text65">
                   <span>Site link of Material Designs</span>
                   <br></br>
                 </span>
                 <img
                   alt="image"
                   src="/Icons/arrow.svg"
-                  className="home-image27"
+                  className="home-image19"
                 />
               </a>
-                </span>
-                
-                
-              </span>
             </div>
             <div className="home-icon-container1">
               <svg
@@ -904,7 +837,7 @@ const Home = (props) => {
             data-role="accordion-container"
             className="home-element2 accordion"
           >
-            <div className="home-content14">
+            <div className="home-content10">
               <span className="home-header27">
                 Where did you find the other illustrations that seem to be
                 pictures ?
@@ -913,7 +846,7 @@ const Home = (props) => {
                 data-role="accordion-content"
                 className="home-description07"
               >
-                <span className="home-text74">
+                <span className="home-text68">
                   Yes, you caught it right that I copied all the drawings,
                   vectors, icons etc. but for the one you are asking I used
                   Undraw. There are many other sites as well, like : Humaaans,
@@ -943,7 +876,7 @@ const Home = (props) => {
             data-role="accordion-container"
             className="home-element3 accordion"
           >
-            <div className="home-content15">
+            <div className="home-content11">
               <span className="home-header28">
                 Do you get paid to promote all these sites ?
               </span>
@@ -979,7 +912,7 @@ const Home = (props) => {
           </div>
           <a
             href="mailto:sumitsharmakaen@gmail.com?subject=I had a question about  "
-            className="home-link17 button"
+            className="home-link16 button"
           >
             Ask your questions
           </a>
@@ -988,30 +921,30 @@ const Home = (props) => {
       <section className="home-get-yours">
         <div className="home-row2">
           <div className="home-column">
-            <div className="home-card07">
+            <div className="home-card3">
               <img
                 alt="Athena"
                 src="/Characters/screenshot%202023-06-03%20174318-1500w.png"
                 loading="eager"
-                className="home-image28"
+                className="home-image20"
               />
-              <span className="home-text78">Athena - By Me</span>
+              <span className="home-text72">Athena - By Me</span>
             </div>
           </div>
           <div className="home-column1">
-            <div className="home-card08">
+            <div className="home-card4">
               <img
                 alt="Metahuman logo"
                 src="https://styles.redditmedia.com/t5_4aqmm0/styles/communityIcon_7m9u3p8obtu61.jpg?width=256&amp;format=pjpg&amp;v=enabled&amp;s=d22d280d0f3297eb736cc8f1db3b313f379b4dfc"
                 loading="lazy"
-                className="home-image29"
+                className="home-image21"
               />
             </div>
           </div>
         </div>
         <div className="home-column2">
-          <div className="home-card09">
-            <div className="home-content16">
+          <div className="home-card5">
+            <div className="home-content12">
               <h2 className="home-header29">Get yours now</h2>
               <p className="home-description09">
                 <span>
@@ -1039,7 +972,7 @@ const Home = (props) => {
               href="https://www.unrealengine.com/en-US/metahuman"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link18 button"
+              className="home-link17 button"
             >
               <span>
                 <span>Visit the Metahuman site</span>
@@ -1054,21 +987,21 @@ const Home = (props) => {
           <div className="home-branding">
             <div className="home-heading10">
               <h2 className="home-logo2">
-                <span className="home-text87">Async</span>
+                <span className="home-text81">Async</span>
                 <span>_</span>
-                <span className="home-text89">Sunlight</span>
+                <span className="home-text83">Sunlight</span>
               </h2>
-              <p className="home-caption13">
-                <span className="home-text90">
+              <p className="home-caption09">
+                <span className="home-text84">
                   Life is so short to regret anything, come together,
                 </span>
-                <br className="home-text91"></br>
-                <span className="home-text92">
+                <br className="home-text85"></br>
+                <span className="home-text86">
                   let us connect I shall always appreciate such connection.
                 </span>
-                <br className="home-text93"></br>
-                <br className="home-text94"></br>
-                <span className="home-text95">
+                <br className="home-text87"></br>
+                <br className="home-text88"></br>
+                <span className="home-text89">
                   -----
                   <span
                     dangerouslySetInnerHTML={{
@@ -1076,8 +1009,8 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text96">Sumit Sharma</span>
-                <br className="home-text97"></br>
+                <span className="home-text90">Sumit Sharma</span>
+                <br className="home-text91"></br>
               </p>
             </div>
             <div className="home-socials2">
@@ -1095,7 +1028,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/Icons/twitter.svg"
-                  className="home-image30"
+                  className="home-image22"
                 />
               </button>
               <a
@@ -1107,7 +1040,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/Icons/discord.svg"
-                  className="home-image31"
+                  className="home-image23"
                 />
               </a>
             </div>
@@ -1118,25 +1051,25 @@ const Home = (props) => {
               <div className="home-items">
                 <Link
                   to="/under-development"
-                  className="home-link19 button-clean button"
+                  className="home-link18 button-clean button"
                 >
                   My Character
                 </Link>
                 <a
                   href="#collection"
-                  className="home-link20 button-clean button"
+                  className="home-link19 button-clean button"
                 >
                   Past Projects
                 </a>
                 <Link
                   to="/under-development"
-                  className="home-link21 button-clean button"
+                  className="home-link20 button-clean button"
                 >
                   Digital Writings
                 </Link>
                 <Link
                   to="/under-development"
-                  className="home-link22 button-clean button"
+                  className="home-link21 button-clean button"
                 >
                   Features
                 </Link>
@@ -1147,7 +1080,7 @@ const Home = (props) => {
               <div className="home-items1">
                 <Link
                   to="/under-development"
-                  className="home-link23 button-clean button"
+                  className="home-link22 button-clean button"
                 >
                   My Buddies
                 </Link>
@@ -1155,7 +1088,7 @@ const Home = (props) => {
                   href="https://www.instagram.com/async_sunlight/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link24 button-clean button"
+                  className="home-link23 button-clean button"
                 >
                   Instagram
                 </a>
@@ -1163,13 +1096,13 @@ const Home = (props) => {
                   href="https://github.com/Su-nlight"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link25 button-clean button"
+                  className="home-link24 button-clean button"
                 >
                   Github
                 </a>
                 <a
                   href="mailto:sumitsharmakaen@gmail.com?subject=Reaching out to you"
-                  className="home-link26 button-clean button"
+                  className="home-link25 button-clean button"
                 >
                   Email
                 </a>
@@ -1177,7 +1110,7 @@ const Home = (props) => {
                   href="https://www.discordapp.com/users/727073320557871137"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link27 button-clean button"
+                  className="home-link26 button-clean button"
                 >
                   Discord
                 </a>
@@ -1194,7 +1127,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/Icons/twitter.svg"
-                className="home-image32"
+                className="home-image24"
               />
             </a>
             <a
@@ -1206,7 +1139,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/Icons/discord.svg"
-                className="home-image33"
+                className="home-image25"
               />
             </a>
           </div>

@@ -379,16 +379,19 @@ const Home = (props) => {
               </h2>
               <p className="home-header04">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+              Born in Delhi, India but being a Himachali I feel like life is beautiful 
+              in the mountains. I hail from the Kangra district of Himachal Pradesh, and 
+              being raised there for 4 years seems magnificent to me now.  Tourism in my 
+              hometown is a forever-lasting one, For people like me who love the mountain 
+              ranges and the peacefulness of those places it is like a heaven. 
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
+                The only problem I think persists there is the more and more construction and 
+                litter taking place that seems to have taken over the city. That is why there is 
+                a need of some NGOs that take care with that. No hard feelings, but sometimes the forest 
+                range burns due to one cigeratte thrown by tourists.
                 </span>
                 <br></br>
               </p>

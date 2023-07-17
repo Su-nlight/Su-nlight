@@ -18,9 +18,6 @@ Hi 👋, I'm Sumit Sharma,<br>A hobbyist developer from India<br><br>🔭 I’m 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
-
 ---
 [![](https://visitcount.itsvg.in/api?id=su-nlight&icon=7&color=5)](https://visitcount.itsvg.in)
 

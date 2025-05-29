@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi 👋, I'm Sumit Sharma,<br>A learning full-time developer from India<br><br>🔭 I’m currently working on Personal Growth (no projects yet) <br><br>🌱 I’m currently learning Engineering & Linux Basics<br><br>👨‍💻 All of my projects are available at ["In Development"]("In Development")<br><br>📝 I regularly write articles on ["In Development"]("In Development")<br><br>💬 Ask me about Low code development<br><br>📫 How to reach me sumitsharmakaen@gmail.com<br><br>📄 Know about my profile [Async_Sunlight](https://asyncsunlight.netlify.app/)<br><br>⚡ Fun fact I like cold-serve beverages
+Hi 👋, I'm Sumit Sharma,<br>A learning full-time developer from India<br><br>🔭 I’m currently working on Personal Growth (no projects yet) <br><br>🌱 I’m currently learning Engineering & Linux Basics<br><br>👨‍💻 All of my projects are available at [Portfolio Wesite](portfolio.asyncsunlight.me)<br><br>📝 I regularly write articles on [Async Blogs](blogs.asyncsunlight.me)<br><br>💬 Ask me about Low code development<br><br>📫 How to reach me sumitsharmakaen@gmail.com<br><br>📄 Know about my profile [Async_Sunlight](https://asyncsunlight.netlify.app/)<br><br>⚡ Fun fact I like cold-serve beverages
 
 
 ## 🌐 Socials:
